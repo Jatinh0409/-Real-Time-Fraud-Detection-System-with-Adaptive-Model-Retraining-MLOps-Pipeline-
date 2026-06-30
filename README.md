@@ -1,0 +1,2 @@
+# -Real-Time-Fraud-Detection-System-with-Adaptive-Model-Retraining-MLOps-Pipeline-
+Financial fraud patterns shift constantly, so a static model trained once and deployed quickly becomes stale. Build an end-to-end system that detects fraudulent transactions in real time, monitors its own prediction quality for drift, and automatically retrains and redeploys when performance degrades — without manual intervention
