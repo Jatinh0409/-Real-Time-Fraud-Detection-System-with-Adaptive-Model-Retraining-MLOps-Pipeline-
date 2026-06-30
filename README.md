@@ -83,8 +83,3 @@ docker run -p 8000:8000 fraud-api
 - Replace the synthetic generator with a Kafka producer for true streaming.
 - Add Grafana/Evidently AI dashboards for live monitoring visualization.
 
-## Resume line
-
-"Built a real-time fraud detection pipeline with automated drift monitoring;
-deployed via Docker/FastAPI with ~5ms inference latency and 0.98 F1 on the
-minority fraud class."
