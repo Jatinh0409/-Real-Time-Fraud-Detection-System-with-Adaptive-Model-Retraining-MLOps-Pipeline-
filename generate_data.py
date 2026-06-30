@@ -1,16 +1,3 @@
-"""
-generate_data.py
-Generates a synthetic, PaySim-style transaction dataset for fraud detection.
-
-Why synthetic data:
-- Lets the whole pipeline run end-to-end with zero manual downloads.
-- Mimics the structure of real fraud datasets (IEEE-CIS / PaySim), so swapping
-  in the real dataset later only requires changing the CSV path + column names
-  in train_model.py, not the pipeline logic.
-
-Usage:
-    python generate_data.py --n_rows 200000 --out ../data/transactions.csv
-"""
 
 import argparse
 import numpy as np
