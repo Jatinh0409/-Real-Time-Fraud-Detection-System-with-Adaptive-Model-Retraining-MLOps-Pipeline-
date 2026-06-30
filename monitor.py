@@ -1,19 +1,4 @@
-"""
-monitor.py
-Phase 2: Drift monitoring.
 
-Compares the statistical distribution of incoming ("current") transaction
-data against the original training data ("reference") using the
-Kolmogorov-Smirnov test per numeric feature, plus a population stability
-index (PSI) for the categorical 'type' feature. If enough features drift
-past a threshold, it flags the model as stale.
-
-This is dependency-light by design (just scipy) so it's easy to run anywhere.
-For a fuller dashboard, swap this logic into Evidently AI's Report objects.
-
-Usage:
-    python monitor.py --reference ../data/transactions.csv --current ../data/new_batch.csv
-"""
 
 import argparse
 import json
