@@ -1,15 +1,4 @@
-"""
-app.py
-FastAPI service that serves the fraud detection model.
 
-Run locally:
-    uvicorn app:app --reload --port 8000
-
-Endpoints:
-    GET  /health   -> liveness check
-    POST /predict  -> returns fraud probability for a transaction
-    GET  /metrics  -> returns last-recorded training metrics (for the resume demo)
-"""
 
 import json
 import os
