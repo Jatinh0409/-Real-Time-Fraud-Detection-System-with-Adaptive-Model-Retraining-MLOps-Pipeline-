@@ -1,0 +1,21 @@
+{
+  "roc_auc": 1.0,
+  "pr_auc": 0.9998,
+  "precision_fraud_class": 0.9809,
+  "recall_fraud_class": 0.9972,
+  "f1_fraud_class": 0.989,
+  "confusion_matrix": [
+    [
+      29633,
+      7
+    ],
+    [
+      1,
+      359
+    ]
+  ],
+  "train_time_seconds": 2.17,
+  "n_train": 120000,
+  "n_test": 30000,
+  "fraud_rate_train": 0.012
+}
